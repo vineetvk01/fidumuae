@@ -817,8 +817,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Call To Action Section
 --------------------------------*/
+.blue-back{
+  background: #081e5b;
+  color: white;
+}
 
-#call-to-action {
+.blue-back h2{
+  background: #081e5b;
+  color: white;
+}
+
+#call-to-action{
   background: #081e5b;
   background-size: cover;
   padding: 40px 0;
