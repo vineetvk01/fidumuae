@@ -93,11 +93,11 @@ h6 {
 }
 
 #topbar .contact-info a:hover {
-  color: #50d8af;
+  color: #0c2e8a;
 }
 
 #topbar .contact-info i {
-  color: #50d8af;
+  color: #0c2e8a;
   padding: 4px;
 }
 
@@ -129,7 +129,7 @@ h6 {
 
 #header {
   padding: 20px 0;
-  height: 84px;
+  height: 94px;
   transition: all 0.5s;
   z-index: 997;
   background: #fff;
@@ -141,8 +141,8 @@ h6 {
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  font-weight:200; 
+  font-family: 'Titillium Web', sans-serif;
 }
 
 #header #logo h1 a {
@@ -151,8 +151,13 @@ h6 {
   display: inline-block;
 }
 
-#header #logo h1 a span {
-  color: #50d8af;
+#header #logo h5 #subscript {
+  color: #0c2e8a;
+  padding: 0px;
+  font-weight: 800;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1;
 }
 
 #header #logo img {
@@ -576,7 +581,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .content i {
   font-size: 20px;
   padding-right: 4px;
-  color: #50d8af;
+  color: #0c2e8a;
 }
 
 #about .content ul {
@@ -624,7 +629,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .box .icon i:before {
   background: #0c2e8a;
-  background: linear-gradient(45deg, #50d8af 0%, #a3ebd5 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -939,7 +943,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #50d8af;
+  color: #0c2e8a;
 }
 
 #contact .contact-info address,
@@ -1093,7 +1097,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   #header {
     padding: 20px 0;
-    height: 74px;
+    height: 84px;
   }
 
   #header #logo h1 {
